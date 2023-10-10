@@ -116,7 +116,7 @@ export const Step4 = () => {
             </Flex>
           </Box>
         </Flex>
-        <Flex justifyContent={"center"} alignItems="center" mt="32px" mb="100px" fontFamily={"Roboto"}>
+        <Flex justifyContent={"center"} alignItems="center" mt="32px" mb="300px" fontFamily={"Roboto"}>
           <Text fontSize="12px" fontWeight="400" color="whiter" mr="12px">
             Powered by:
           </Text>
