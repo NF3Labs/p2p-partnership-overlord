@@ -287,11 +287,11 @@ export const Step1 = ({ callback }) => {
                     ? borderColor
                     : "whiter"
                 }
-                _hover={{ color: "primary" }}
+                _hover={{ opacity: "0.6" }}
                 color={
                   selectResult === -1 && selectHistory === -1
-                    ? "primary"
-                    : "primary"
+                    ? "0.6"
+                    : "0.6"
                 }
                 cursor={
                   selectResult === -1 && selectHistory === -1
@@ -317,7 +317,7 @@ export const Step1 = ({ callback }) => {
                 fontWeight="700"
                 cursor="pointer"
                 color={"whiter"}
-                _hover={{ color: titleHover }}
+                _hover={{ opacity: 0.6 }}
                 m="auto"
                 mt="16px"
                 onClick={handleBack}

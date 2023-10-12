@@ -23,12 +23,12 @@ const steps = [
   { label: "4", description: "Preview And Submit" },
 ];
 
-export const Progress = ({ callback }) => {
+export const Progress = ({ callback, tab, setTab }) => {
   const bg = useColorModeValue("border.light", "border.dark");
   const selecter = useColorModeValue("selecter.dark", "header.dark");
   const label = useColorModeValue("labelColor");
 
-  const [tab, setTab] = useState(0);
+  // const [tab, setTab] = useState(0);
   const { address } = useAccount();
   const userContext = useUserContext();
 

@@ -438,7 +438,7 @@ export const Step2Me = ({ callback }) => {
                     ? bg
                     : "whiter"
                 }
-                _hover={{ color: "primary" }}
+                _hover={{ opacity: "0.6" }}
                 color={
                   userContext?.selectedActionsState?.p2p_my_nfts.length === 0 &&
                     userContext?.selectedActionsState?.p2p_my_fts.length === 0
@@ -468,7 +468,7 @@ export const Step2Me = ({ callback }) => {
                 fontSize="14px"
                 cursor="pointer"
                 color={"whiter"}
-                _hover={{ color: titleHover }}
+                _hover={{ opacity: 0.6 }}
                 m="auto"
                 mt="20px"
                 onClick={handlePrev}
@@ -527,7 +527,7 @@ export const Step2Me = ({ callback }) => {
                     fontSize="14px"
                     as={Button}
                     _active={{ bg: bg }}
-                    _hover={{ bg: bg }}
+                    _hover={{ opacity: 0.6 }}
                     rightIcon={<ChevronDownIcon />}
                   >
                     {tokenHeaders.length > 0
@@ -540,7 +540,7 @@ export const Step2Me = ({ callback }) => {
                         <MenuItem
                           bg={realBg}
                           key={idx}
-                          _hover={{ bg: bg }}
+                          _hover={{ opacity: 0.6 }}
                           onClick={() => {
                             setNFTSelect(idx);
                           }}

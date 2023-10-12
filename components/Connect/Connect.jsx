@@ -28,7 +28,7 @@ export const Connect = (props) => {
           px="16px"
           py='16px'
           fontWeight='bold'
-          color={'Blacker'}
+          color={'blacker'}
           cursor={"pointer"}
         >
           SIGN IN

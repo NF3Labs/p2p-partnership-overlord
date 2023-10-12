@@ -11,7 +11,7 @@ export const MarkAllAsRead = (props, isMobile) => {
         color="#8C8C8C"
         // textTransform={"uppercase"}
         // rightIcon={<IoCheckmarkSharp color="#8C8C8C" fontSize={"17px"} />}
-        _hover={{ bg: "" }}
+        _hover={{ opacity: "0.6" }}
         _focus={{ bg: "transparent" }}
         fontSize="12px"
         px="0px"

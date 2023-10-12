@@ -90,7 +90,7 @@ export const AcceptSign = ({
             <Button
               bg="whiter"
               color="blacker"
-              _hover={{ bg: "pinkerHover" }}
+              _hover={{ opacity: "0.6" }}
               borderRadius="4px"
               py="4"
               px="6"

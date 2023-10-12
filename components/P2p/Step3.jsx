@@ -410,7 +410,7 @@ export const Step3 = ({ callback }) => {
                   fontSize="14px"
                   as={Button}
                   _active={{ bg: "transparent" }}
-                  _hover={{ bg: realBg }}
+                  _hover={{ opacity: 0.6 }}
                   border={`1px solid`}
                   color="whiter"
                   borderColor={realBg}
@@ -478,7 +478,7 @@ export const Step3 = ({ callback }) => {
             <Box
               mt="10px"
               bg={title}
-              _hover={!isCreatingListing && { color: "primary" }}
+              _hover={!isCreatingListing && { opacity: "0.6" }}
               color={"blacker"}
               cursor={isCreatingListing ? "not-allowed" : "pointer"}
               textAlign="center"
@@ -504,7 +504,7 @@ export const Step3 = ({ callback }) => {
                 fontSize="14px"
                 cursor={isCreatingListing ? "not-allowed" : "pointer"}
                 color={title}
-                _hover={{ color: titleHover }}
+                _hover={{ opacity: 0.6 }}
                 mx="auto"
                 mt="24px"
                 onClick={handlePrev}

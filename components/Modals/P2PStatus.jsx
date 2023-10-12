@@ -698,7 +698,7 @@ export const P2PStatus = ({
                           }
                           _hover={
                             !isProcessingCancel &&
-                            !isProcessingAccept && { color: "titleHover.dark" }
+                            !isProcessingAccept && { opacity: "0.6" }
                           }
                           onClick={() => {
                             if (!item?.is_sent) {
@@ -738,7 +738,7 @@ export const P2PStatus = ({
                             _hover={
                               !isProcessingAccept &&
                               !isProcessingCancel && {
-                                color: "titleHover.dark",
+                                opacity: 0.6
                               }
                             }
                             color={"blacker"}

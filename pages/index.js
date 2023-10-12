@@ -734,7 +734,7 @@ export default function ActiveOptions() {
             fontWeight="bold"
             borderRadius="8px"
             bg="whiter"
-            _hover={{ color: "primary" }}
+            _hover={{ opacity: "0.6" }}
             color="primary"
             cursor={"pointer"}
             onClick={handleCreate}

@@ -180,7 +180,7 @@ export const NavNotification = ({ data, isMobile }) => {
     return list.filter((i) => i.is_delivered == false);
   };
   const Row = ({ index, style }) => (
-    <Box p="0" _hover={{ bg: hoverBg }} background={bg} style={style}>
+    <Box p="0" _hover={{ opacity: 0.6 }} background={bg} style={style}>
       <NotificationItemNav
         id={list && list[index].id}
         notificationId={list && list[index].listing_id}

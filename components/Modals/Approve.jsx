@@ -31,7 +31,7 @@ export const Approve = ({ data, isOpen, onClose, handleContinue }) => {
         <Stack color={stackColor}>
           <Button
             bg={"secondary"}
-            _hover={{ color: "primary" }}
+            _hover={{ opacity: "0.6" }}
             _focus={{ color: "primary" }}
             color="primary"
             borderRadius="4px"

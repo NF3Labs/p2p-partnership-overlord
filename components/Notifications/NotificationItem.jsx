@@ -153,7 +153,7 @@ export const NotificationItem = (props, isMobile) => {
               fontSize="10px"
             >
               <MenuItem
-                _hover={{ bg: bghover }}
+                _hover={{ opacity: 0.6 }}
                 background={background}
                 fontWeight="bold"
                 py="1"
@@ -166,7 +166,7 @@ export const NotificationItem = (props, isMobile) => {
                 {`Mark as ${isRead ? "unread" : "read"}`}
               </MenuItem>
               <MenuItem
-                _hover={{ bg: bghover }}
+                _hover={{ opacity: 0.6 }}
                 background={background}
                 fontWeight="bold"
                 py="1"
@@ -179,7 +179,7 @@ export const NotificationItem = (props, isMobile) => {
                 Remove notification
               </MenuItem>
               <MenuItem
-                _hover={{ bg: bghover }}
+                _hover={{ opacity: 0.6 }}
                 background={background}
                 fontWeight="bold"
                 py="1"
@@ -287,7 +287,7 @@ export const NotificationItem = (props, isMobile) => {
               py="1"
             >
               <MenuItem
-                _hover={{ bg: bghover }}
+                _hover={{ opacity: 0.6 }}
                 background={background}
                 fontWeight="bold"
                 py="1"
@@ -300,7 +300,7 @@ export const NotificationItem = (props, isMobile) => {
                 {`Mark as ${isRead ? "unread" : "read"}`}
               </MenuItem>
               <MenuItem
-                _hover={{ bg: bghover }}
+                _hover={{ opacity: 0.6 }}
                 background={background}
                 fontWeight="bold"
                 py="1"
@@ -313,7 +313,7 @@ export const NotificationItem = (props, isMobile) => {
                 Remove notification
               </MenuItem>
               <MenuItem
-                _hover={{ bg: bghover }}
+                _hover={{ opacity: 0.6 }}
                 background={background}
                 fontWeight="bold"
                 py="1"

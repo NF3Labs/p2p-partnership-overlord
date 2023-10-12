@@ -99,7 +99,7 @@ export const Step4 = () => {
                 m="auto"
                 mt="40px"
                 bg={title}
-                _hover={{ color: "primary" }}
+                _hover={{ opacity: "0.6" }}
                 color={"primary"}
                 cursor="pointer"
                 textAlign="center"
@@ -116,7 +116,7 @@ export const Step4 = () => {
             </Flex>
           </Box>
         </Flex>
-        <Flex justifyContent={"center"} alignItems="center" mt="32px" mb="100px" fontFamily={"Roboto"}>
+        <Flex justifyContent={"center"} alignItems="center" mt="32px" mb="250px" fontFamily={"Roboto"}>
           <Text fontSize="12px" fontWeight="400" color="whiter" mr="12px">
             Powered by:
           </Text>

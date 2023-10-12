@@ -24,6 +24,7 @@ export default function P2p() {
   const { address } = useAccount();
 
   const [status, setStatus] = useState(0);
+  const [tab, setTab] = useState(0);
 
   useEffect(() => {
     const temp = window.sessionStorage.getItem("dashboard-p2p");
@@ -62,7 +63,13 @@ export default function P2p() {
 
   useEffect(() => {
     if (nextRoute && !isOpen) {
-      onOpen();
+      if(tab !== 4)
+        onOpen();
+      else
+      {
+        setTab(0);
+        handleContinue();
+      }
     }
   }, [nextRoute, isOpen]);
 
@@ -113,6 +120,7 @@ export default function P2p() {
 
   return (
     <>
+      {console.log("asdfg\n",status)}
       <CancelTrade
         isOpen={isOpen}
         onClose={onClose}
@@ -123,7 +131,7 @@ export default function P2p() {
         {status === 0 ? (
           <Dashboard onTrade={handleNew} />
         ) : (
-          <Progress callback={handleStatus} />
+          <Progress callback={handleStatus} tab={tab} setTab={setTab}/>
         )}
       </Flex>
     </>

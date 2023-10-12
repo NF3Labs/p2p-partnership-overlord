@@ -62,7 +62,7 @@ export const SelectToken = ({
       color: 'whiter'
     }),
     option: (provided, state) => ({
-      bg: state.isSelected ? selected : menuBg,
+      bg: menuBg,
       py: "2",
       px: "3",
     }),
@@ -140,7 +140,7 @@ export const SelectToken = ({
               color="whiter"
               placeholder="0"
               value={amount}
-              w="90px"
+              w="70px"
               onChange={handleChange}
               type="number"
             />
@@ -213,7 +213,7 @@ export const SelectToken = ({
               onClick={onClose}
               cursor="pointer"
               bg="transparent"
-              _hover={{ bg: "transparent" }}
+              _hover={{ opacity: "0.6" }}
               _focus={{ bg: "transparent" }}
             >
               Cancel
@@ -221,7 +221,7 @@ export const SelectToken = ({
             <Button
               cursor="pointer"
               bg="whiter"
-              _hover={{ bg: "secondary" }}
+              _hover={{ opacity: "0.6" }}
               _focus={{ bg: "secondary" }}
               color="primary"
               borderRadius="8px"

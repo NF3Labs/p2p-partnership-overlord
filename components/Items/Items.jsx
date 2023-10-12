@@ -55,7 +55,7 @@ export const TokenItem = ({
 
   return (
     <Flex
-      color={"#FFF"}
+      color={"blacker"}
       px="8px"
       py="3px"
       className="whitespace-nowrap"
